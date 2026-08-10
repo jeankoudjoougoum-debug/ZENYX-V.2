@@ -1,0 +1,14 @@
+{
+  "warns": {},
+  "bans": [],
+  "vips": [],
+  "settings": {
+    "antispam": true,
+    "antilink": true,
+    "antinsfw": true,
+    "welcome": true,
+    "goodbye": true
+  },
+  "groupSettings": {},
+  "userStats": {}
+}
