@@ -258,7 +258,7 @@ async function unbanUser(conn, msg, args, sender) {
     const target = args[0] ? args[0] + '@s.whatsapp.net' : sender;
     db.bans = db.bans.filter(id => id !== target);
     saveDB();
-    await conn.sendMessage(sender, { text: `✅ ${target} débanni.` });
+    await conn.sendMessage(sender, { text: `✅ ${target} débanni du bot.` });
 }
 
 async function banlist(conn, msg, sender) {
@@ -556,4 +556,4 @@ async function unbanBot(conn, msg, args, sender) {
     const target = args[0] ? args[0] + '@s.whatsapp.net' : sender;
     db.bans = db.bans.filter(id => id !== target);
     saveDB();
-    await conn.sendMessage(sender, { text: `✅ ${target} débanni du 
+    await conn.sendMessage(sender, { text: `✅ ${target} déba
