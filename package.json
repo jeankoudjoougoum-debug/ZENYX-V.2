@@ -1,6 +1,6 @@
 {
   "name": "whatsapp-bot-pro",
-  "version": "4.2.0",
+  "version": "4.2.1",
   "description": "Bot WhatsApp ultime avec Baileys + modules de ouf",
   "main": "index.js",
   "scripts": {
